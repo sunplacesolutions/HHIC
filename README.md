@@ -5,7 +5,9 @@ es un script en Python diseñado para detectar vulnerabilidades de inyección de
 
 # Requisitos
 Python 3.x
+
 Requests: pip install requests
+
 Colorama: pip install colorama
 
 # Uso
