@@ -1,12 +1,24 @@
 ![hhic Logo](hostheader.webp)
 # HHIC
 # Host Header Injection Check
+es un script en Python diseñado para detectar vulnerabilidades de inyección de cabecera Host en aplicaciones web. Este tipo de ataque puede permitir a un atacante realizar falsificación de solicitudes del lado del servidor (SSRF), envenenamiento de caché, y elusión de controles de acceso. El script utiliza la biblioteca requests para realizar solicitudes HTTP con un encabezado Host malicioso y la biblioteca colorama para mejorar la salida en la terminal.
 
-#Instalación y Uso:
+# Requisitos
+Python 3.x
+Requests: pip install requests
+Colorama: pip install colorama
 
-Guarda el script modificado en un archivo, por ejemplo, hhic.py, y asegúrate de tener tu archivo dominios.txt en el mismo directorio. Luego, ejecuta el script
-python3 hhic.py !!
+# Uso
+Instalar dependencias:
+pip install requests colorama
 
+# Preparar el archivo de dominios:
+
+Crea un archivo llamado Dominios_A_Chequear.txt en el mismo directorio que el script.
+Añade las URLs de los dominios que deseas verificar, una por línea.Instalación y Uso:
+
+# Ejecutar el script:
+python hhic.py
 
 # Uso de colorama:
 La biblioteca colorama permite utilizar colores en la consola de manera portátil.
