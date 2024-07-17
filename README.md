@@ -12,11 +12,13 @@ Colorama: pip install colorama
 
 # Uso
 Instalar dependencias:
+
 pip install requests colorama
 
 # Preparar el archivo de dominios:
 
 Crea un archivo llamado Dominios_A_Chequear.txt en el mismo directorio que el script.
+
 Añade las URLs de los dominios que deseas verificar, una por línea.Instalación y Uso:
 
 # Ejecutar el script:
